@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    background-color: rgb(220, 216, 216);
+    /* padding: 20px; */
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.nav{
+    height: 13%;
+    width: 100%;
+    background-color:#f2f2f2;
+    padding: 20px;
+    display: flex;
+}
+.logo{
+    height: 100%;
+    width: 25%;
+    /* background-color: aqua; */
+}
+.responsive{
+    height: 100%;
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+}
+.cross{
+    height: 100%;
+    width: 35%;
+    text-align: right;
+}
+.organic{
+    height: 134%;
+    width: 100%;
+}
+.top{
+    height: 15%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+}
+.default{
+    width: 50%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    padding: 20px 0 0 60px;
+}
+.default img{
+    height: 100%;
+    width: 50%;
+}
+.menu{
+    height: 100%;
+    width: 50%;
+    text-align: right;
+    padding: 20px 50px;
+}
+.fresh-food{
+    height: 130%;
+    width: 100%;
+    background-image: url('../images/organic1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-align: justify;
+    padding: 100px 100px 100px 800px;
+    padding-top: 100px;
+    font-size: 30px;
+}
+.fresh-food h1 , .right h1{
+    color: rgb(241, 64, 10);
+    font-size: 60px;
+    font-family: cursive;
+}
+.fresh-food button{
+    height: 50px;
+    width: 200px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.working{
+    height: 200%;
+    width: 100%;
+    background-color: rgba(106, 163, 106, 0.813);
+    padding: 80px;
+    color: white;
+    font-size: 20px;
+}
+.working h1{
+    font-size: 50px;
+}
+.down{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+}
+.up , .bottom{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.d1 , .d2 , .d3 , .d4 , .d5 , .d6 {
+    height: 100%;
+    width: 33%;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.d1 img , .d3 img , .d5 img {
+    height: 100%;
+    width: 100%;
+}
+.d2 , .d4 , .d6 {
+    padding: 30px;
+    color: grey;
+}
+.promise{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    background-color: white;
+}
+.left{
+    height: 100%;
+    width: 50%;
+}
+.left img{
+    height: 100%;
+    width: 100%;
+}
+.right{
+    height: 100%;
+    width: 50%;
+    padding: 50px 50px;
+    font-size: 20px;
+    text-align: justify;
+}
+.right h2{
+    color: green;
+}
+.right button{
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.farm{
+    height: 130%;
+    width: 100%;
+}
+.about{
+    height: 60%;
+    width: 100%;
+    background-color: green;
+    position: relative;
+    padding: 50px;
+    color: white;font-size: 20px;
+}
+.about img{
+    height: 50%;
+    width: 100%;
+}
+.vegetables{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 80px;
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+}
+.works{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 420px;
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+}
+.flexibility{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 760px;
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+}
+.products{
+    height: 100%;
+    width: 20%;
+    background-color: white;
+    position: absolute;
+    top: 250px;
+    left: 1100px;
+    padding: 30px;
+    font-size: 20px;
+    color: black;
+}
+.types{
+    height: 110%;
+    width: 100%;
+    padding: 50px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.fruits , .veg , .salad{
+    height: 100%;
+    width: 33%;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+.types img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.frame-field{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.frame{
+    height: 100%;
+    width: 50%;
+}
+.frame iframe{
+    height: 100%;
+    width: 100%;
+}
+.field{
+    height: 100%;
+    width: 50%;
+    background-image: url('../images/imag14.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fa-solid {
+    font-size: 50px;
+    color: green;
+}
+.footer{
+    height: 30%;
+    width: 100%;
+    padding:50px;
+    background-color: #000000b3;
+    color:white;
+}
+.footer a{
+    color: orange;
+}
